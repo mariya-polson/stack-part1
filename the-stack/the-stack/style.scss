@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=Poppins:wght@400;500;600;700;900&display=swap");
+@import "variable";
+@import "util";
+body {
+  font-family: $font-family-1;
+  background-color: $color-1;
+  overflow-x: hidden;
+}
+
+.carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  margin-top: -19rem;
+  border-radius: 50%;
+  border: 1px solid #d5c8c6;
+  border-top: 0;
+  border-bottom: 0;
+  opacity: 1;
+  &.active {
+    opacity: 1;
+    background-color: $color-7;
+    border: none;
+  }
+}
+
+.banner-image {
+  background: url(../images/banner.png) no-repeat;
+  background-size: cover;
+  // background-position: center;
+  .row.image-row1 {
+    justify-content: space-between;
+    img.coriander {
+      @include image-property(327px, 382px);
+      margin: -60px 0 0 -108px;
+
+      /* transform: matrix(0.87, 0.5, -0.5, 0.87, 0, 0); */
+    }
+    img.mint {
+      @include image-property(266px, 278px);
+    }
+  }
+  .row.image-row2 {
+    justify-content: space-between;
+    img.tomato {
+      @include image-property(158px, 212px);
+      margin: 1px 0 0 -44px;
+    }
+    img.meal-bowl {
+      @include image-property(420px, 300px);
+      margin: -158px 0 0 99px;
+    }
+    img.salad-bowl {
+      @include image-property(200px, 200px);
+    }
+    .col-md-4.headings-col {
+      margin: -119px 0 0 -62px;
+
+      span {
+        &.new {
+          @include text-property($font-20, $font-400, $color-2);
+          display: flex;
+          width: 83px;
+          height: 35px;
+          border: 1px solid $color-2;
+          border-radius: 18px;
+          justify-content: center;
+        }
+      }
+      p {
+        &.ultimate {
+          @include text-property($font-100, $font-400, $color-4);
+
+          font-family: $font-family-2;
+          line-height: 1;
+        }
+        sup {
+          @include text-property($font-24, $font-500, $color-5);
+          top: -138px;
+          left: 554px;
+        }
+      }
+      p {
+        &.available {
+          @include text-property($font-22, $font-400, $color-6);
+          margin-bottom: 0;
+          line-height: -33;
+          margin: -103px 0 0 0;
+          span {
+            @include text-property($font-22, $font-500, $color-3);
+          }
+        }
+      }
+    }
+  }
+  .row.image-row3 {
+    align-items: flex-start;
+    .fork-col {
+      img.spoon-fork {
+        @include image-property(440px, 468px);
+        margin: -46px 46px 0 30px;
+      }
+    }
+    .plate-col {
+      img.plate-meal {
+        @include image-property(514px, 518px);
+        margin: -45px 0 0 49px;
+      }
+    }
+    .input-col {
+      input[type="text"] {
+        background: url(../images/location.png) no-repeat;
+        background-position: 12px;
+        padding-left: 41px;
+        width: 683px;
+        height: 70px;
+        border-radius: 50px;
+        background-color: $color-1;
+        border: 1px solid $color-7;
+        opacity: 1;
+        font-size: $font-16;
+      }
+      .find {
+        @include text-property($font-20, $font-400, $color-1);
+        @include btn-property(
+          252px,
+          70px,
+          none,
+          $color-7 0% 0% no-repeat padding-box
+        );
+        float: right;
+        margin: -70px -24px 0 12px;
+        position: relative;
+      }
+    }
+  }
+  .row.justify-content-center.overlap-banner-row {
+    margin: -395px 0 0 0;
+    position: relative;
+    top: 130px;
+
+    .overlap-bannerimage {
+      background: url(../images/waves.png) no-repeat,
+        url(../images/overlap-banner.png) no-repeat;
+      background-size: cover;
+      width: 1367px;
+      height: 374px;
+      border-radius: 190px;
+      // opacity: 0.2;
+      h4 {
+        &.overlap-heading {
+          @include text-property($font-50, $font-500, $color-1);
+          padding: 0 7rem;
+          font-family: $font-family-2;
+          text-align: center;
+        }
+      }
+      .learn {
+        @include btn-property(252px, 70px, 2px solid $color-1, transparent);
+        @include text-property($font-20, $font-500, $color-1);
+        border-radius: 35px;
+      }
+    }
+  }
+}

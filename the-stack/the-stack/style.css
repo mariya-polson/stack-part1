@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=Poppins:wght@400;500;600;700;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  margin-top: -19rem;
+  border-radius: 50%;
+  border: 1px solid #d5c8c6;
+  border-top: 0;
+  border-bottom: 0;
+  opacity: 1;
+}
+.carousel-indicators li.active {
+  opacity: 1;
+  background-color: #fb5b29;
+  border: none;
+}
+
+.banner-image {
+  background: url(../images/banner.png) no-repeat;
+  background-size: cover;
+}
+.banner-image .row.image-row1 {
+  justify-content: space-between;
+}
+.banner-image .row.image-row1 img.coriander {
+  width: 327px;
+  height: 382px;
+  margin: -60px 0 0 -108px;
+  /* transform: matrix(0.87, 0.5, -0.5, 0.87, 0, 0); */
+}
+.banner-image .row.image-row1 img.mint {
+  width: 266px;
+  height: 278px;
+}
+.banner-image .row.image-row2 {
+  justify-content: space-between;
+}
+.banner-image .row.image-row2 img.tomato {
+  width: 158px;
+  height: 212px;
+  margin: 1px 0 0 -44px;
+}
+.banner-image .row.image-row2 img.meal-bowl {
+  width: 420px;
+  height: 300px;
+  margin: -158px 0 0 99px;
+}
+.banner-image .row.image-row2 img.salad-bowl {
+  width: 200px;
+  height: 200px;
+}
+.banner-image .row.image-row2 .col-md-4.headings-col {
+  margin: -119px 0 0 -62px;
+}
+.banner-image .row.image-row2 .col-md-4.headings-col span.new {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1762af;
+  display: flex;
+  width: 83px;
+  height: 35px;
+  border: 1px solid #1762af;
+  border-radius: 18px;
+  justify-content: center;
+}
+.banner-image .row.image-row2 .col-md-4.headings-col p.ultimate {
+  font-size: 100px;
+  font-weight: 400;
+  color: #342727;
+  font-family: "Domine", serif;
+  line-height: 1;
+}
+.banner-image .row.image-row2 .col-md-4.headings-col p sup {
+  font-size: 24px;
+  font-weight: 500;
+  color: #272c34;
+  top: -138px;
+  left: 554px;
+}
+.banner-image .row.image-row2 .col-md-4.headings-col p.available {
+  font-size: 22px;
+  font-weight: 400;
+  color: #7e6b67;
+  margin-bottom: 0;
+  line-height: -33;
+  margin: -103px 0 0 0;
+}
+.banner-image .row.image-row2 .col-md-4.headings-col p.available span {
+  font-size: 22px;
+  font-weight: 500;
+  color: #f8b333;
+}
+.banner-image .row.image-row3 {
+  align-items: flex-start;
+}
+.banner-image .row.image-row3 .fork-col img.spoon-fork {
+  width: 440px;
+  height: 468px;
+  margin: -46px 46px 0 30px;
+}
+.banner-image .row.image-row3 .plate-col img.plate-meal {
+  width: 514px;
+  height: 518px;
+  margin: -45px 0 0 49px;
+}
+.banner-image .row.image-row3 .input-col input[type=text] {
+  background: url(../images/location.png) no-repeat;
+  background-position: 12px;
+  padding-left: 41px;
+  width: 683px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  border: 1px solid #fb5b29;
+  opacity: 1;
+  font-size: 16px;
+}
+.banner-image .row.image-row3 .input-col .find {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 252px;
+  height: 70px;
+  border: none;
+  background: #fb5b29 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  opacity: 1;
+  float: right;
+  margin: -70px -24px 0 12px;
+  position: relative;
+}
+.banner-image .row.justify-content-center.overlap-banner-row {
+  margin: -395px 0 0 0;
+  position: relative;
+  top: 130px;
+}
+.banner-image .row.justify-content-center.overlap-banner-row .overlap-bannerimage {
+  background: url(../images/waves.png) no-repeat, url(../images/overlap-banner.png) no-repeat;
+  background-size: cover;
+  width: 1367px;
+  height: 374px;
+  border-radius: 190px;
+}
+.banner-image .row.justify-content-center.overlap-banner-row .overlap-bannerimage h4.overlap-heading {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 0 7rem;
+  font-family: "Domine", serif;
+  text-align: center;
+}
+.banner-image .row.justify-content-center.overlap-banner-row .overlap-bannerimage .learn {
+  width: 252px;
+  height: 70px;
+  border: 2px solid #ffffff;
+  background: transparent;
+  border-radius: 50px;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 35px;
+}/*# sourceMappingURL=style.css.map */
